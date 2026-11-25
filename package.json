@@ -1,10 +1,16 @@
 {
-"scripts": {
-    "start" : "node --watch book-store.js"
+  "scripts": {
+    "start": "node --watch book-store.js"
   },
-
   "dependencies": {
     "@types/express": "^5.0.6",
-    "express": "^5.3.0"
+    "dotenv": "^18.0.10",
+    "drizzle-kit": "^0.31.11",
+    "drizzle-orm": "^0.45.4",
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6"
   }
 }

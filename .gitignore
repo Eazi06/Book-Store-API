@@ -1,0 +1,19 @@
+# Dependencies (never commit node_modules)
+node_modules/
+
+# Environment variables & secrets (never commit passwords)
+.env
+.env.local
+.env.*.local
+
+# Logs
+log.txt
+*.log
+npm-debug.log*
+
+# Temporary / scratch test scripts
+test-db.js
+
+# OS generated files
+.DS_Store
+Thumbs.db

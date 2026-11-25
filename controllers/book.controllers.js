@@ -1,4 +1,6 @@
-const { BOOKS } = require('../models/books')
+// const { BOOKS } = require('../models/books')
+const db = require('../db/database_connect')
+const booksTable = require('../models/books_schema')
 
 exports.getAllBooks = function (req, res) {
     return res.send(BOOKS)
